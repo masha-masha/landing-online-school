@@ -92,6 +92,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    padding-bottom: 147px;
 }
 
 
@@ -139,3 +140,100 @@ body {
     border: 2px solid black;
 }
 
+/* skills */
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding-bottom: 282px;
+}
+
+.skills-main-title {
+    padding-bottom: 92px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+}
+
+.skills-content-right-side {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.card-speaking {
+    width: 435px;
+    height: 894px;
+}
+.card-writing {
+    width: 434px;
+    height: 531px;
+}
+.card-reading {
+    width: 435px;
+    height: 532px;
+}
+.card-listening {
+    display: flex;
+    width: 885px;
+}
+
+.card-reading,
+.card-listening,
+.card-speaking,
+.card-writing {
+  background-color: #F5F5F5;
+  align-items: center;
+  justify-content: space-around;
+  padding: 42px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-reading:hover,
+.card-listening:hover,
+.card-speaking:hover,
+.card-writing:hover {
+  background-color: #e0e4ec;
+}
+
+.card-wrapper-for-title-and-image {
+    display: flex;
+}
+
+.title-card-skills {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.card-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8F95A5;
+
+}
+.btn-card-left-side {
+  padding: 17px 63px 17px 64px;
+}
+
+.btn-card-right-side {
+  padding: 15px 51px 15px 52px;
+}
+
+.btn-card-left-side,
+.btn-card-right-side {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-card-left-side:hover,
+.btn-card-right-side:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
