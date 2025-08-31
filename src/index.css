@@ -284,3 +284,43 @@ body {
     color: #8F95A5;
     font-size: 20px;
 }
+
+/* section pricing  */
+
+.cards-pricing {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-pricing {
+    height: 560px;
+    width: 635px;
+}
+
+.card-pricing-second {
+    padding-top: 30px;
+}
+
+.card-pricing-h3 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+
+.card-pricing-h3-third {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.card-pricing p {
+    color: #8F95A5;
+    font-size: 20px;
+}
+
+.card-pricing button {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    background-color: #EEEEEE;
+
+}
