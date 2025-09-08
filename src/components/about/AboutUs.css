@@ -1,0 +1,39 @@
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 188px;
+}
+
+.about-us h2 {
+    font-size: 48px;
+}
+
+.about-us-left-side {
+    display: flex;
+    flex-direction: column;
+}
+.about-us-left-side > p {
+    width: 635px;
+    padding-top: 23px;
+    font-size: 20px;
+    color: #8F95A5;
+    flex-grow: 1;
+
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    
+}
+
+.statistics .number {
+   font-size: 48px;
+   font-weight: 600;
+}
+
+.statistics .name {
+    color: #8F95A5;
+    font-size: 20px;
+}
