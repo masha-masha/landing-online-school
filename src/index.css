@@ -45,54 +45,7 @@ body {
 
 
 /* header */
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 55px;
-    padding-bottom: 51px;
-}
-.logo {
-    font-weight: 400;
-    font-size: 36px;
-    letter-spacing: 0%;
-}
 
-.grey {
-    padding-left: 0;
-    display: inline-block;
-    color: grey;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
-}
-
-.menu li {
-    cursor: pointer;
-}
-
-.menu li:hover {
-    text-decoration: underline;
-}
-
-.header-btn {
-    padding: 17px 57px;
-    font-size: 24px;
-    border: 2px solid black;
-    border-radius: 5px;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-}
-
-.header-btn:hover {
-    background-color: rgb(11, 11, 11);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: rgb(251, 249, 247);
-    border-color: rgb(244, 242, 239);
-}
 
 
 /* intro */

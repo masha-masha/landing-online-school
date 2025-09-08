@@ -1,51 +1,13 @@
+import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
 
 const Temporary = () => {
  return (
   <>
    <body>
-    <header className='header'>
-     <div className='container header-container'>
-      <div className='logo'>
-       Brit<span className='grey'>lex</span>
-      </div>
-      <ul className='menu'>
-       <li>Home</li>
-       <li>
-        <a href='#skills'>Skills</a>
-       </li>
-       <li>
-        <a href='#about'>About us</a>
-       </li>
-       <li>
-        <a href='#pricing'>Pricing</a>
-       </li>
-       <li>
-        <a href='#contacts'>Contacts</a>
-       </li>
-      </ul>
-      <button className='btn header-btn'>Let's talk</button>
-     </div>
-    </header>
+    <Header/>
     <main>
-     <div className='container intro'>
-      <div className='intro-right-side'>
-       <div className='wrapper-for-title'>
-        <p className='intro-title'>Learn Any Foreign Language</p>
-        <img src='/images/light-bulb-svgrepo-com 1.jpg' alt='bulb' />
-       </div>
-       <p className='intro-about'>
-        With our teachers who write a program for each student, you will be able
-        to make your first sketch after the first lesson.
-       </p>
-       <button className='btn btn-intro'>Get Started</button>
-      </div>
-      <div className='intro-left-side'>
-       <img
-        src='/images/Learning languages-bro 1.jpg'
-        alt='learning languages'
-       />
-      </div>
-     </div>
+    <Intro/>
      <section className='skills container'>
       <h2 className='section-main-title' id='skills'>
        Skills
