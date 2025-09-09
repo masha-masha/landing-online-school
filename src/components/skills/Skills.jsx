@@ -1,11 +1,10 @@
 import './Skills.css'
+import Title from '../title/Title'
 
 const Skills = () => {
   return (
      <section className='skills container'>
-      <h2 className='section-main-title' id='skills'>
-       Skills
-      </h2>
+      <Title name="Skills" id="skills" />
       <div className='skills-content'>
        <div className='skills-content-left-side'>
         <div className='card-speaking'>

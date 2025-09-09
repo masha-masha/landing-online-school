@@ -1,11 +1,10 @@
 import './Pricing.css';
+import Title from '../title/Title';
 
 const Pricing = () => {
  return (
   <section className='container pricing'>
-   <h2 className='section-main-title' id='pricing'>
-    Pricing
-   </h2>
+   <Title name="Prising" id="pricing"/>
    <div className='cards-pricing'>
     <div className='card-pricing'>
       <div className="pricing-img">
